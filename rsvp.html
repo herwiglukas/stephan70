@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>RSVP - Stephan's 70. Geburtstag</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="styles.css">
+    <link href="images/logo.png" rel="shortcut icon" type="image/x-icon">
+    <link href="images/logo.png" rel="apple-touch-icon">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+              SAVE THE DATE
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+        
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <!-- <li class="nav-item">
+                    <a class="nav-link" href="informationen.html">Informationen</a>
+                </li> -->
+                <li class="nav-item">
+                    <a class="nav-link" href="rsvp.html">RSVP</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container-fluid py-5">
+        <div class="row mx-4">
+            <div class="col-md-6">
+                <h1>Feiert mit mir</h1>
+                <p>Ich hoffe, dass ihr meinen 70. Geburtstag mit mir feiern könnt. Wir freuen uns auf eure Teilnahme! Fülle das Formular aus, um mir mitzuteilen, ob ihr kommen könnt. Bitte antwortet bis zum <b>10. Dezember 2023</b>.<br><br></p>
+                <!-- Add the details about the party here -->
+                <h4>SAMSTAG, 06. JANUAR 2024</h4>
+                <p>18:30 Uhr Empfang</p>
+                <p>19:00 Uhr Abendessen</p>
+                <p>21:00 Uhr Tanz und gute Gespräche</p>
+                <p>Bitte schreibt mir vorher per E-Mail oder SMS/Whatsapp 3-5 eurer Songwünsche für Tanzeinlagen.</p>
+                <p>Dresscode: Smart Casual<br><br></p>
+                <h4>GOLF- UND LANDCLUB SEMLIN AM SEE</h4>
+                <p>Ferchesarer Str. 8b, 14712 Rathenow<br>
+                Zur Übernachtung steht ein Zimmerkontingent mit Sonderpreisen zur Verfügung.<br><br></p>
+                <p>Bitte gebt mir über das Formular Rückmeldung, ob ihr kommt.<br><br>
+                    Euer Stephan<br>
+                    <a href="tel: 4915112036036">Tel: +49 151 12036036</a><br>
+                    <a href="mailto: stephan.herwig@gmx.de" target="_blank">Email: stephan.herwig@gmx.de</a></p>
+                <!-- <p>Wir werden gemeinsam einen schönen Abend im Golfresort Semlin am See verbringen. Der genaue Ablaufplan wird noch bekannt gegeben. Gegen 19:00 Uhr starten wir mit dem ersten festen Programmpunkt im Restaurant Hasenpfeffer. Da wir nach dem Abendessen noch das Tanzbein schwingen wollen und der Abend durchaus auch länger als 23:00 Uhr gehen könnte, haben wir ein Zimmerkontingent im Hotel reserviert. Meldet euch bei Fragen gerne jederzeit bei mir. </br></br> Euer Stephan</br></br></p> -->
+            </div>
+            <div class="col-md-6">
+                <form id="myForm">
+                <!-- method="post" action="https://script.google.com/macros/s/AKfycbzVPJ0J9je2cAl6zhn4of0zjNMOTbodT3tg94HN8cCXen36jJouxBY4KlTi7FWdwNu-8A/exec"> -->
+                    <div class="row">
+                        <div class="col">
+                            <div class="form-group">
+                                <label for="firstName">Vorname</label>
+                                <input type="text" class="form-control" id="firstName" name="firstName">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="form-group">
+                                <label for="lastName">Nachname</label>
+                                <input type="text" class="form-control" id="lastName" name="lastName">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-Mail</label>
+                        <input type="email" class="form-control" id="email" name="email">
+                    </div>
+                    <div class="form-group">
+                        <label for="phoneNumber">Telefonnummer</label>
+                        <input type="text" class="form-control" id="phoneNumber" name="phoneNumber">
+                    </div>
+                    <div class="form-group">
+                        <label for="participation">Nimmst du teil?</label>
+                        <select class="form-control" id="participation" name="participation">
+                            <option>Ja</option>
+                            <option>Nein</option>
+                        </select>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="form-group">
+                                <label for="guests">Bringst du Begleitung mit?</label>
+                                <select class="form-control" id="guests" name="guests">
+                                    <option>Nein</option>
+                                    <option>Ja</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="form-group">
+                                <label for="guest_names">Falls ja, wen?</label>
+                                <input type="text" class="form-control" id="guest_names" name="guest_names">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="allergies">Besondere Essgewohnheiten oder Allergien</label>
+                        <input type="text" class="form-control" id="allergies" name="allergies">
+                    </div>
+                    <div class="form-group">
+                        <label for="comments">Weitere Fragen, Kommentare oder gerne deine Songwünsche für Tanzeinlagen</label>
+                        <textarea class="form-control" id="comments" name="comments" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Absenden</button>
+                </form>
+                <div id="formResponse"></div> <!-- Place to show the response message -->
+            </div>
+        </div>
+    </div>
+    <!-- Your scripts here -->
+</body>
+</html>
+<script>
+    document.getElementById('myForm').addEventListener('submit', function(e) {
+        e.preventDefault(); // Prevent the default form submission
+
+        var formData = new FormData(this); // Capture the form data
+
+        fetch('https://script.google.com/macros/s/AKfycbzVPJ0J9je2cAl6zhn4of0zjNMOTbodT3tg94HN8cCXen36jJouxBY4KlTi7FWdwNu-8A/exec', {
+            method: 'POST',
+            body: formData
+        })
+        .then(response => response.json())
+        .then(data => {
+            // Handle the response data
+            if (data.result === "success") {
+                // Redirect to the success page
+                window.location.href = 'success.html'; // Make sure the path is correct
+            } else {
+                document.getElementById('formResponse').innerHTML = "Es ist ein Fehler aufgetreten. Bitte versuche es erneut. Wenn der Fehler weiterhin auftritt, gib mir bitte Bescheid (Tel: +49 151 12036 036; Email: stephan.herwig@gmx.de).";
+            }
+        })
+        .catch(error => {
+            // Handle any errors
+            document.getElementById('formResponse').innerHTML = "Es ist ein Fehler aufgetreten. Bitte versuche es erneut. Wenn der Fehler weiterhin auftritt, gib mir bitte Bescheid (Tel: +49 151 12036 036; Email: stephan.herwig@gmx.de).";
+        });
+    });
+</script>

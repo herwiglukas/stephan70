@@ -1,0 +1,94 @@
+body {
+    background-color: #ffffff;
+    color: #346473;
+    font-family: 'Montserrat', sans-serif;
+}
+.navbar {
+    background-color: #346473;
+    color: #e9f679 !important;
+}
+.navbar-brand {
+    color: #ffffff !important;
+}
+.nav-link:hover,
+.nav-link:focus,
+.nav-link:active {
+    color: #e9f679 !important;
+}
+.container {
+    /* background-color: #346473;
+    color: #ffffff; */
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.display-1, .display-2, .display-3, .display-4, .display-5, .display-6  {
+    color: #ffffff;
+    padding-left: 20px;
+}
+.btn-outline-secondary {
+    color: #e9f679;
+    border-color: #e9f679;
+}
+.btn-outline-secondary:hover {
+    color: #346473;
+    border-color: #e9f679;
+    background-color: #e9f679;
+}
+.btn-primary {
+    color: #ffffff;
+    background-color: #346473;
+    border-color: #346473;
+}
+.btn-primary:hover {
+    color: #ffffff;
+    border-color: #448396;
+    background-color: #448396;
+}
+.img-half-viewport {
+    height: 50vh;
+    object-fit: cover; /* This will ensure the image covers the full height and width of its container without distorting the aspect ratio */
+}
+h1, .display-1 {
+    font-size: 4vw;
+}
+h3, .display-6 {
+    font-size: 3vw;
+}
+h4 {
+    font-size: 2vw;
+}
+p {
+    font-size: 1vw;
+}
+
+@media screen and (max-width: 768px) {
+    h1, .display-1 {
+        font-size: 2rem;
+    }
+    h3, .display-6 {
+        font-size: 1.5rem;
+    }
+    h4 {
+        font-size: 1.3rem;
+    }
+    p {
+        font-size: 1rem;
+        margin-bottom: 1em;
+    }
+}
+@media screen and (max-width: 400px) {
+    h1, .display-1 {
+        font-size: 1.5rem;
+    }
+    h3, .display-6 {
+        font-size: 1.3rem;
+    }
+    h4 {
+        font-size: 1.3rem;
+    }
+    p {
+        font-size: 1rem;
+        margin-bottom: 1em;
+    }
+}
