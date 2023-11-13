@@ -9,6 +9,7 @@ body {
     align-items: center; /* Align items vertically */
     background-color: #346473;
     color: #e9f679 !important;
+    padding: 20px; /* Reverted to original value */
 }
 .navbar-brand {
     color: #ffffff !important;
@@ -22,15 +23,13 @@ body {
     color: #346473;
 }
 .container {
-    /* background-color: #346473;
-    color: #ffffff; */
-    padding: 20px;
+    padding: 20px; /* Reverted to original value */
     border-radius: 5px;
-    margin-top: 20px;
+    margin-top: 20px; /* Reverted to original value */
 }
-.display-1, .display-2, .display-3, .display-4, .display-5, .display-6  {
+.display-1, .display-2, .display-3, .display-4, .display-5, .display-6 {
     color: #ffffff;
-    padding-left: 20px;
+    padding-left: 20px; /* Reverted to original value */
 }
 .btn-outline-secondary {
     color: #e9f679;
@@ -56,39 +55,26 @@ body {
     object-fit: cover; /* This will ensure the image covers the full height and width of its container without distorting the aspect ratio */
 }
 h1, .display-1 {
-    font-size: 4vw;
+    font-size: clamp(2rem, 5vw, 3rem);
 }
 h3, .display-6 {
-    font-size: 3vw;
+    font-size: clamp(1.5rem, 4vw, 2.5rem);
 }
 h4 {
-    font-size: 2vw;
+    font-size: clamp(1.3rem, 3vw, 2rem);
 }
 p {
-    font-size: 1vw;
+    font-size: clamp(1rem, 1.5vw, 1.5rem);
 }
 
 @media screen and (max-width: 768px) {
-    h1, .display-1 {
-        font-size: 2rem;
-    }
-    h3, .display-6 {
-        font-size: 1.5rem;
-    }
-    h4 {
-        font-size: 1.3rem;
-    }
-    p {
-        font-size: 1rem;
-        margin-bottom: 1em;
-    }
     .navbar {
-        padding: 10px; /* Reduce padding */
+        padding: 10px; /* Reverted to original value */
     }
 
     .navbar-brand,
     .navbar-nav .nav-item {
-        margin-right: 10px; /* Adjust margin */
+        margin-right: 10px; /* Reverted to original value */
     }
 
     .navbar-nav {
@@ -97,22 +83,8 @@ p {
     }
 }
 @media screen and (max-width: 400px) {
-    h1, .display-1 {
-        font-size: 1.5rem;
-    }
-    h3, .display-6 {
-        font-size: 1.3rem;
-    }
-    h4 {
-        font-size: 1.3rem;
-    }
-    p {
-        font-size: 1rem;
-        margin-bottom: 1em;
-    }
     .navbar-brand,
     .navbar-nav .nav-item {
-        margin-right: 5px; /* Further reduce margin */
+        margin-right: 5px; /* Reverted to original value */
     }
 }
-
