@@ -4,6 +4,9 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 .navbar {
+    display: flex; /* Use flexbox for the navbar */
+    justify-content: space-between; /* Space out items */
+    align-items: center; /* Align items vertically */
     background-color: #346473;
     color: #e9f679 !important;
 }
@@ -14,6 +17,9 @@ body {
 .nav-link:focus,
 .nav-link:active {
     color: #e9f679 !important;
+}
+.link {
+    color: #346473;
 }
 .container {
     /* background-color: #346473;
@@ -41,7 +47,7 @@ body {
     border-color: #346473;
 }
 .btn-primary:hover {
-    color: #ffffff;
+    color: #e9f679;
     border-color: #448396;
     background-color: #448396;
 }
@@ -76,6 +82,19 @@ p {
         font-size: 1rem;
         margin-bottom: 1em;
     }
+    .navbar {
+        padding: 10px; /* Reduce padding */
+    }
+
+    .navbar-brand,
+    .navbar-nav .nav-item {
+        margin-right: 10px; /* Adjust margin */
+    }
+
+    .navbar-nav {
+        display: flex; /* Ensure nav items are flex */
+        align-items: center; /* Align items */
+    }
 }
 @media screen and (max-width: 400px) {
     h1, .display-1 {
@@ -91,4 +110,9 @@ p {
         font-size: 1rem;
         margin-bottom: 1em;
     }
+    .navbar-brand,
+    .navbar-nav .nav-item {
+        margin-right: 5px; /* Further reduce margin */
+    }
 }
+
